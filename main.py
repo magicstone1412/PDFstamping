@@ -152,9 +152,9 @@ def insert_image_to_pdf(input_pdf_path, image_path, output_pdf_path,
 # Example usage
 if __name__ == "__main__":
     try:
-        input_pdf = "00736-A-00489bw.pdf"
+        input_pdf = "00727-A-00482bw.pdf"
         image_file = "image.png"
-        base_output_pdf = "output_00736-A-00489bw"
+        base_output_pdf = "output_00727-A-00482bw.pdf"
 
         # Prompt user for number of output sets
         user_input = input("How many output sets would you like to generate? (Press Enter for default of 1): ").strip()
